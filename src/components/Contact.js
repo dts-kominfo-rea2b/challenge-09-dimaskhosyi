@@ -11,7 +11,7 @@ const Contact = ({name, email, image, phone}) => {
                 <img src={image} />    
             </div>
             <div id='border'>
-                <p>{name}</p>
+                <p text={name}>{name}</p>
                 <p>{phone}</p>
                 <p>{email}</p>
             </div>
