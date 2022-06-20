@@ -11,9 +11,9 @@ const Contact = ({name, email, image, phone}) => {
                 <img src={image} />    
             </div>
             <div id='border'>
-                <p className='name'>{name}</p>
-                <p className='phone'>{phone}</p>
-                <p className='email'>{email}</p>
+                <p>{name}</p>
+                <p>{phone}</p>
+                <p>{email}</p>
             </div>
         </div>
     )

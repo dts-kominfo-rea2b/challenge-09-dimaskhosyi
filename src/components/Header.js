@@ -4,8 +4,8 @@ import React from 'react';
 const Header = () => {
     return (
         <div>
-            <h1>Contact Books</h1>
-            <h2>Here's the detail information</h2>
+            <h1>Call a Friend</h1>
+            <h2>your friendly contact app</h2>
         </div>
     )
 }
