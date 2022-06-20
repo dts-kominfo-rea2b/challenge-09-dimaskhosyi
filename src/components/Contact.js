@@ -3,12 +3,12 @@
 import React from 'react';
 import './Contact.css';
 
-const Contact = (data) => {
+const Contact = ({data}) => {
 
     return (
         <div id='contact-card'>
             <div>
-                <img src={data.image} />    
+                <img src={data.photo} />    
             </div>
             <div id='border'>
                 <p>{data.name}</p>
