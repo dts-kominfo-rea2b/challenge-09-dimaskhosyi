@@ -1,4 +1,10 @@
 .App {
   text-align: center;
   display: flex;
+  justify-content: center;
+}
+
+body{
+  background-color: #371B58;
+  color: white;
 }

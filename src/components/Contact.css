@@ -1,0 +1,22 @@
+div #contact-card{
+    background-color: #7858A6;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 60px;
+    box-shadow: 5px 10px #4C3575;
+}
+
+img{
+    width: 200px;
+    margin-right:  50px;
+    border-radius: 100px;
+}
+
+#border{
+    border-left: 2px solid black;
+    padding-left: 20px;
+    text-align: left;
+    line-height: 10px;
+}
